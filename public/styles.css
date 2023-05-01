@@ -1,0 +1,81 @@
+body{
+  background: rgb(0, 0, 0);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Mono', monospace;
+  font-size: 62.5%;
+}
+h3{
+  margin: 50px;
+  color: white;
+  font-size: 3rem;
+}
+ul{
+  padding: 0px;
+}
+.sneaky{
+  display: none;
+}
+.fa-solid{
+  color: rgba(240, 248, 255, 0.5);
+}
+.fa-solid:hover{
+  color: white;
+}
+li.word{
+  list-style: none !important;
+  font-size: 1.5rem;
+}
+fieldset{
+  border: none;
+  background: rgba(240, 248, 255, 0.25);
+  font-size: 1rem;
+  margin: 50px;
+  border-radius: 10px;
+
+}
+input{
+  border-radius: 5px;
+  border: none;
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  padding: 5px;
+  color: rgb(60	62	64	);
+}
+input:focus{
+  border-radius: 5px;
+  border: none;
+}
+input:placeholder-shown{
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  padding: 5px;
+}
+input:focus::placeholder{
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  padding: 5px;
+}
+input::selection{
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  padding: 5px;
+}
+button{
+  border: none;
+  background: black;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  border-radius: 5px;
+  padding: 5px;
+}
+button:hover{
+  background: white;
+  color: black;
+
+}
